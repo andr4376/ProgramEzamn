@@ -1,0 +1,25 @@
+﻿
+
+
+
+
+
+
+
+
+Builder pattern har til formål at simplificere overkomplicerede instancieringsprocesser
+Fungere rigtig godt sammen med component patterns
+
+
+• Formål
+• Separerer konstruktionen af et komplekst objekt fra
+dets repræsentation, så den samme
+konstruktionsproces kan lave forskellige
+repræsentationer af objektet
+• Kan bruges til at forenkle skabelsen af objekter, hvis
+man er I en situation hvor man har et stort antal
+constructors
+• I stedet for at have mange constructors, tages et
+andet objekt i brug(en builder), som modtager hvert
+parameter step by step hvorefter det færdige objekt
+returneres. 

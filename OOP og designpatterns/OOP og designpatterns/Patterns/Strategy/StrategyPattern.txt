@@ -1,0 +1,13 @@
+﻿• Giver mulighed for at ændre adfærd under runtime
+• Definerer en gruppe af adfærd
+• Indkapsler hver adfærd
+• Sørger for at adfærden kan ændres indenfor gruppen
+
+    Istrategy, et interface, som definerer de metoder strategien skal have
+• ConcreteStrategy, en konkret implementering af strategien
+• Execute: Eksekverer koden til strategien
+• Context
+• Strategy: Den strategi, som denne context gør brug af
+• Constructor: Kan sættes strategien, kan også gøres via en metode eller en
+property.
+• Execute: Eksekverer den nuværende strategi

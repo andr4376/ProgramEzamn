@@ -1,0 +1,39 @@
+﻿
+
+
+
+
+
+
+
+• Nedarving er en meget stor fordel i OOP men i
+komplekse nedarvingshierarkier kan man komme
+ud for:
+• At klasser implementerer funktionalitet, som de ikke gør brug
+af.
+• At den samme funktionalitet skal implementeres flere gange.
+
+• En component pattern kan løse disse problemer.
+• Giver os mulighed for at tilpasse vores objekter ved kun
+at tilføje de komponenter/Elementer de har brug for.
+
+• Fordele
+• Gør det muligt at isolere kode, så man undgår store og
+uoverskuelige klasser.
+• F.eks. Koden i et GameObject bliver hurtig uoverskuelig og
+indeholder ofte mange metoder (rendering, kollision,
+movement osv.)
+• Koden kan deles op i komponenter, som i stedet tager sig af
+logikken.
+• Ulemper
+• Nogle ting bliver mere komplekse.
+• Man skal skrive mere kode for at tilføje et enkelt objekt
+
+
+• Hvornår kan den bruges?
+• Hvis en klasse berører flere domæner, som man gerne
+vil holde adskilt
+• Hvis en klasse er uoverskuelig og svær at arbejde med
+• Hvis man vil definere forskellige objekter, som dele
+funktionalitet.
+• Nedarving giver ikke mulighed for at vælge specifikke dele.

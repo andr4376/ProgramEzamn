@@ -1,0 +1,37 @@
+﻿
+
+
+
+
+
+
+
+
+
+creational designpatterns tager sig af instancierings processen af objekter!:
+
+Bestemmer hvordan et systems objekter skabes,
+sammensættes og repræsenteres
+• En klasse creational patter bruger nedarving til at lave
+forskellige varianter af objekterne
+• En object creational pattern uddelegerer instantieringen
+til andre objekter
+
+
+Singleton:
+Formål
+• Sikre at en klasse kun har en instans og giver et globalt
+”point of access” til klasen
+• Bruges f.eks.
+• Hvis man har brug for 1 player
+• Hvis man har brug for en HighscoreWriter klasse
+• Til en database forbindelse
+
+Hvorfor bruge singleton over static?
+• Kan implementere interfaces og nedarve fra andre
+klasser
+• Stiller et objekt til rådighed
+• Kan bruges i sammenhæng med andre patterns. F.eks.
+Factory
+• Fjerner funktionaliteten fra det globale namespace
+

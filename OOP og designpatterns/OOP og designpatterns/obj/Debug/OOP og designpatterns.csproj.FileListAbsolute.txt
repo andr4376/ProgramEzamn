@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.exe.config
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.exe
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.pdb
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.exe
+C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.pdb
