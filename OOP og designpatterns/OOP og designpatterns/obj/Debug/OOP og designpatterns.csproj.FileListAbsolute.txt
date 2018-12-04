@@ -5,3 +5,10 @@ C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debu
 C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.csproj.CoreCompileInputs.cache
 C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.exe
 C:\Users\Andr4\source\repos\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.exe.config
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\bin\Debug\OOP og designpatterns.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.csprojAssemblyReference.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.csproj.CoreCompileInputs.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\OOP og designpatterns\OOP og designpatterns\obj\Debug\OOP og designpatterns.pdb

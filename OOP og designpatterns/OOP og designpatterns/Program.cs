@@ -36,10 +36,12 @@ namespace OOP_og_designpatterns
             Console.WriteLine("Component added");
             gameObject.AddComponent(new ComponentThatShouldDoSomething());
             gameObject.AddComponent(new ComponentThatDoesAnotherThing());
-
+            
+            ComponentThatShouldDoSomething tmp = gameObject.GetComponent<ComponentThatShouldDoSomething>();
 
             //make it do that thing
             gameObject.DoSomething();
+
 
             Console.WriteLine();
             Console.WriteLine(gameObject.ToString());

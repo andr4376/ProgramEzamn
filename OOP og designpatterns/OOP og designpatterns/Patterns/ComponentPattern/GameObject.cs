@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace OOP_og_designpatterns
 {
@@ -56,9 +57,41 @@ f.eks være:
             }
             return null;
         }
+
+        /// <summary>
+        /// Based on type
+        /// </summary>
+        /// <typeparam name="TComponentType"></typeparam>
+        /// <returns></returns>
+        public TComponentType GetComponent<TComponentType>()
+        {
+            foreach (Component comp in components)
+            {
+                if (comp is TComponentType)
+                {
+                    return  (TComponentType)Convert.ChangeType(comp, typeof(TComponentType));
+                }
+
+            }
+                return (TComponentType)Convert.ChangeType(null, typeof(TComponentType));
+        }
+
         public void RemoveComponent(Component component)
         {
             components.Remove(component);
+        }
+
+
+        public void RemoveComponent<T>()
+        {
+            foreach (Component comp in components)
+            {
+                if (comp is T)
+                {
+                    components.Remove(comp);
+                }
+
+            }
         }
 
         public void DoSomething()
