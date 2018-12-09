@@ -8,7 +8,7 @@
 
 
 Builder pattern har til formål at simplificere overkomplicerede instancieringsprocesser
-Fungere rigtig godt sammen med component patterns
+Fungere rigtig godt sammen med component patterns og Observer patterns /events
 
 
 • Formål

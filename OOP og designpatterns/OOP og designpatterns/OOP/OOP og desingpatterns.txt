@@ -1,0 +1,26 @@
+﻿
+
+
+
+
+
+OOP er et Programmeringsparadigme, som er et respons på den tidligere mest populære paradigme "Procedural programming", hvori man stort set
+bare skrev den kode og funktionalitet som skulle til for at nå fra A til B, og hver funktionalitet havde som reelt kun et formål
+
+OOP som paradigme, et en programmerings metode hvori man knytter funktionaliteter og attributter til objekter. Man "Bygger små maskiner".
+OOP er nemt at sætte sig ind i, fordi måden man opbygger sine klasser på, tit, minder om det vi ser i virkeligheden.
+
+F.eks en Hund:
+En hund er et dyr. Derfor kunne den nedarve fra en superklasse kaldet "dyr". Den er ikke KUN et dyr, den kan også havde et "ICanine" interface, skulle
+det være relevant.
+Desuden kan en hun nogle ting som ingen andre dyr kan. Derfor kan den have sin egen funktionalitet, udover den, den får ved at nedarve fra Animal, eller
+bruge ICanine Interface
+
+En telefon er et stykke elektronik. men ikke alle elektroniske apperater kan foretage et opkald.
+
+
+Der findes tre grundprincipper i objektorienteret programmering:
+
+1. Indkapsling -> indkapsle funktionalitet og properties til klasser / objekter / små maskiner
+2. Nedarvning -> vidergive funktionalitet og properties til underklasser
+3. Polymorfi -> lader klasser som nedarver fra en superklasse, tage formen som superklassen. f.eks med collections / et objekt kan skifte "form". "Hund" er også "Animal"

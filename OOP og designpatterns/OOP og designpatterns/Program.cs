@@ -10,6 +10,10 @@ namespace OOP_og_designpatterns
     {
         static void Main(string[] args)
         {
+            TestObserverPattern.Test();
+
+            Polymorphism.Test();
+
             TestComponentPattern();
             Console.ReadKey();
 
