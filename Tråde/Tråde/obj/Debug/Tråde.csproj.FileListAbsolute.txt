@@ -5,3 +5,10 @@ C:\Users\Andr4\source\repos\Tråde\Tråde\obj\Debug\Tråde.csprojAssemblyReferen
 C:\Users\Andr4\source\repos\Tråde\Tråde\obj\Debug\Tråde.csproj.CoreCompileInputs.cache
 C:\Users\Andr4\source\repos\Tråde\Tråde\obj\Debug\Tråde.exe
 C:\Users\Andr4\source\repos\Tråde\Tråde\obj\Debug\Tråde.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\bin\Debug\Tråde.exe.config
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\bin\Debug\Tråde.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\bin\Debug\Tråde.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\obj\Debug\Tråde.csprojAssemblyReference.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\obj\Debug\Tråde.csproj.CoreCompileInputs.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\obj\Debug\Tråde.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Tråde\Tråde\obj\Debug\Tråde.pdb
