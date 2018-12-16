@@ -5,3 +5,10 @@ C:\Users\Andr4\source\repos\Algoritmer og Generics - datatyper\Algoritmer og Gen
 C:\Users\Andr4\source\repos\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.csproj.CoreCompileInputs.cache
 C:\Users\Andr4\source\repos\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.exe
 C:\Users\Andr4\source\repos\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\bin\Debug\Algoritmer og Generics - datatyper.exe.config
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\bin\Debug\Algoritmer og Generics - datatyper.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\bin\Debug\Algoritmer og Generics - datatyper.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.csprojAssemblyReference.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.csproj.CoreCompileInputs.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\Algoritmer og Generics - datatyper\Algoritmer og Generics - datatyper\obj\Debug\Algoritmer og Generics - datatyper.pdb

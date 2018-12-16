@@ -49,11 +49,11 @@ namespace Algoritmer_og_Generics___datatyper
             return end;
         }
 
-        private static void swap(int[] A, int left, int right)
+        private static void swap(int[] array, int left, int right)
         {
-            int tmp = A[left];
-            A[left] = A[right];
-            A[right] = tmp;
+            int tmp = array[left];
+            array[left] = array[right];
+            array[right] = tmp;
         }
 
         public static void PrintCollection(int[] array)

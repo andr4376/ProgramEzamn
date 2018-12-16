@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\bin\Debug\test og kvalitetssikring.exe.config
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\bin\Debug\test og kvalitetssikring.exe
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\bin\Debug\test og kvalitetssikring.pdb
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\obj\Debug\test og kvalitetssikring.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\obj\Debug\test og kvalitetssikring.exe
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\obj\Debug\test og kvalitetssikring.pdb
+C:\Users\Andr4\source\repos\test og kvalitetssikring\test og kvalitetssikring\obj\Debug\test og kvalitetssikring.csprojAssemblyReference.cache
