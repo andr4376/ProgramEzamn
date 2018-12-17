@@ -22,7 +22,11 @@ namespace test_og_kvalitetssikring
             use namespace in test project
              */
 
+            Console.WriteLine(byte.MinValue);
+            Console.WriteLine(byte.MaxValue);
 
+            FakeClass.ConvertIntToByte(256);
+            Console.ReadKey();
         }
     }
 }
