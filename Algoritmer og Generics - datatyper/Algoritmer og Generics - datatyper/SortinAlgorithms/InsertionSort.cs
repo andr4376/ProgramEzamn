@@ -12,19 +12,24 @@ namespace Algoritmer_og_Generics___datatyper
 
         public static List<int> SortList<T>(List<int> list)
         {
-            count = 0;
+           
 
             List<int> listToSort = list;
 
-            for (int i = 0; i < listToSort.Count - 1; i++)
+            //amount of items in list determines how many loop cycles
+            for (int currentLoopCycle = 0; currentLoopCycle < listToSort.Count - 1; currentLoopCycle++)//outer loop
             {
-                for (int j = i + 1; j > 0; j--)
+                //start from where we left off
+                for (int pointer = currentLoopCycle + 1; pointer > 0; pointer--) //inner loop J (instead of while)
                 {
-                    if (listToSort[j - 1] > listToSort[j])
+                    //inspect the item to the "left / above"
+                    if (listToSort[pointer - 1] > listToSort[pointer]) //if it's bigger than the number we're looking at
                     {
-                        int temp = listToSort[j - 1];
-                        listToSort[j - 1] = listToSort[j];
-                        listToSort[j] = temp;
+                        //swap them (move the item we're looking at down)
+                        int temp = listToSort[pointer - 1];
+
+                        listToSort[pointer - 1] = listToSort[pointer];
+                        listToSort[pointer] = temp;
 
                         PrintCollection(listToSort);
                     }
@@ -46,7 +51,7 @@ namespace Algoritmer_og_Generics___datatyper
                 Console.WriteLine("[" + item + "]");
             }
             Console.WriteLine("\nInsertion Sorting");
-            System.Threading.Thread.Sleep(50);
+            System.Threading.Thread.Sleep(100);
             count++;
         }
 

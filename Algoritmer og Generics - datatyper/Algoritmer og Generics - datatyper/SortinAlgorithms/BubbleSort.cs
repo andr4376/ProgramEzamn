@@ -9,47 +9,51 @@ namespace Algoritmer_og_Generics___datatyper
     static class BubbleSort
     {
 
-        private static int count;
+        private static int actionCount;
 
         public static List<int> BubbleSortList<T>(List<int> list)
         {
 
-            List<int> tmp = list;
+            List<int> listToSort = list;
 
-            int temp = 0;
+            int tmp = 0;
 
-            for (int write = 0; write < tmp.Count; write++)
+            //amount of iterations
+            for (int loopAmount = 0; loopAmount < listToSort.Count; loopAmount++) 
             {
-                for (int sort = 0; sort < tmp.Count - 1; sort++)
+                // look through all elements
+                for (int currentItem = 0; currentItem < listToSort.Count - 1; currentItem++) 
                 {
-                    if (tmp[sort] > tmp[sort + 1])
+                    //if current item is bigger than the next item
+                    if (listToSort[currentItem] > listToSort[currentItem + 1]) 
                     {
-                        temp = tmp[sort + 1];
-                        tmp[sort + 1] = tmp[sort];
-                        tmp[sort] = temp;
+                        //swap them
+                        tmp = listToSort[currentItem + 1];
+                        listToSort[currentItem + 1] = listToSort[currentItem];
+                        listToSort[currentItem] = tmp;
 
-                        PrintCollection(tmp);
+                        PrintCollection(listToSort);
 
                     }
                 }
             }
-            count = 0;
+            actionCount = 0;
 
-            return tmp;
+            return listToSort;
         }
 
         private static void PrintCollection(List<int> list)
         {
+            actionCount++;
             Console.Clear();
-            Console.WriteLine("Actions " + count + "\n");
+            Console.WriteLine("Actions " + actionCount + "\n");
 
             foreach (var item in list)
             {
                 Console.WriteLine("[" + item + "]");
             }
             Console.WriteLine("\nBubble Sorting");
-            System.Threading.Thread.Sleep(50);
-            count++;
+            System.Threading.Thread.Sleep(100);
         }
 
         public static void Test()

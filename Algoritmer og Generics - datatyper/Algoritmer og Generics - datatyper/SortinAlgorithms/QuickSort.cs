@@ -10,66 +10,175 @@ namespace Algoritmer_og_Generics___datatyper
     {
         private static int count;
 
-        public static int[] quickSort(int[] _array, int left, int right)
+        private static int pivotIndex;
+        private static int currentIndex;
+        private static int lowIndex;
+
+        public static int[] quickSort(int[] array, int low, int high)
         {
-            int[] array = _array;
 
-            if (left > right || left < 0 || right < 0) return null;
-
-            int index = partition(array, left, right);
-
-            if (index != -1)
+            if (low < high)
             {
-                quickSort(array, left, index - 1);
-                quickSort(array, index + 1, right);
-            }
+                //finds the index where the "high" belongs
+                int pivot = Partition(array, low, high);
 
+
+                if (pivot != -1)
+                {
+                    //sorts the left side
+                    quickSort(array, low, pivot - 1);
+
+                    //sort the right side
+                    quickSort(array, pivot + 1, high);
+                }
+
+            }
             return array;
         }
 
-        private static int partition(int[] array, int left, int right)
+        private static int Partition(int[] array, int low, int high)
         {
-            if (left > right) return -1;
+            if (low > high) return -1;
 
-            int end = left;
+            int pivot = array[high];    // element to be placed at the far right 
 
-            int pivot = array[right];    // choose last one to pivot, easy to code
-            for (int i = left; i < right; i++)
+            // TODO: place these properly
+            pivotIndex = high;
+            lowIndex = low;
+
+            int leftWall = (low - 1);
+
+            for (int j = low; j < high; j++)
             {
-                if (array[i] < pivot)
+                currentIndex = j;
+
+                DrawArray(array);
+                if (array[j] <= pivot)
                 {
-                    swap(array, i, end);
-                    end++;
+                    leftWall++;
+                    lowIndex++; //for drawing
+                    int tmp = array[leftWall];
+                    array[leftWall] = array[j];
+                    array[j] = tmp;
+
 
                     PrintCollection(array);
                 }
             }
 
-            swap(array, end, right);
-            return end;
+
+            int temp = array[leftWall + 1];
+            array[leftWall + 1] = array[high];
+            array[high] = temp;
+
+            PrintCollection(array);
+
+            return leftWall + 1;
         }
 
-        private static void swap(int[] array, int left, int right)
+        private static void swap(int[] array, int low, int right)
         {
-            int tmp = array[left];
-            array[left] = array[right];
-            array[right] = tmp;
+
+
         }
 
         public static void PrintCollection(int[] array)
         {
+            System.Threading.Thread.Sleep(500);
+            // Console.ReadKey();
+
             Console.Clear();
             Console.WriteLine("Actions " + count + "\n");
 
-            foreach (var item in array)
+
+
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine("[" + item + "]");
+
+
+
+                if (i == currentIndex && i == lowIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\" & current \"j\"");
+
+                }
+                else if (i == currentIndex && i == pivotIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\" & pivot");
+
+                }
+                else if (i == pivotIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< Pivot");
+
+                }
+                else if (i == currentIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]< current \"j\"");
+                }
+                else if (i == lowIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\"");
+                }
+                else
+                {
+                    Console.WriteLine("[" + array[i] + "]");
+                }
             }
+
+
+
             Console.WriteLine("\nQuick Sorting");
-            System.Threading.Thread.Sleep(50);
+
             count++;
         }
 
+        private static void DrawArray(int[] array)
+        {
+
+            Console.Clear();
+            Console.WriteLine("Actions " + count + "\n");
+
+            for (int i = 0; i < array.Length; i++)
+            {
+
+
+                if (i == currentIndex && i == lowIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\" & current \"j\"");
+
+                }
+                else if (i == currentIndex && i == pivotIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\" & pivot");
+
+                }
+                else if (i == pivotIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< Pivot");
+
+                }
+                else if (i == currentIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]< current \"j\"");
+                }
+                else if (i == lowIndex)
+                {
+                    Console.WriteLine("[" + array[i] + "]<<< low \"i\"");
+                }
+                else
+                {
+                    Console.WriteLine("[" + array[i] + "]");
+                }
+
+
+            }
+            Console.WriteLine("\nQuick Sorting");
+            System.Threading.Thread.Sleep(200);
+            //Console.ReadKey();
+
+
+        }
         public static int[] Test()
         {
             count = 0;
@@ -109,6 +218,11 @@ namespace Algoritmer_og_Generics___datatyper
             {
                 array[i] = testList[i];
             }
+
+            //  int[] array = new int[10] { 7, 2, 1, 8, 6, 3, 5, 4, 1, 15 };
+
+
+
 
             array = quickSort(array, 0, array.Length - 1);
 

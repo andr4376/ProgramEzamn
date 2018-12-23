@@ -42,9 +42,25 @@ namespace Algoritmer_og_Generics___datatyper
             #region SortinAlgorithms;
 
             //Creates a new list of random numbers and sorts them
-            BubbleSort.Test();
+            Console.Clear();
+
+            Console.ReadKey();
             QuickSort.Test();
+
+            Console.ReadKey();
+            BubbleSort.Test();
+
+            Console.ReadKey();
             InsertionSort.Test();
+
+           
+
+            
+
+            
+
+           
+            Console.ReadKey();
             //
 
             List<int> randomNumbers = new List<int>();
@@ -77,7 +93,7 @@ namespace Algoritmer_og_Generics___datatyper
             graph.nodes["Node #4"].MakeConnection(graph.nodes["Node #7"], false);
             graph.nodes["Node #7"].MakeConnection(graph.nodes["Node #8"], false);
 
-                                 
+
 
             BFS.FindPath(9); //find vej til node nr9
 
