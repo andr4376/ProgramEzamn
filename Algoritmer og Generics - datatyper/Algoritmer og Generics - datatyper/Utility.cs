@@ -21,5 +21,9 @@ namespace Algoritmer_og_Generics___datatyper
             //return true if t1 is the same type as t2
             return typeof(T1).Equals(typeof(T2));
         }
+
+
+
+        
     }
 }

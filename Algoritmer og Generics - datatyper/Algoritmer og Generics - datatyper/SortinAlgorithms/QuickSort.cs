@@ -14,6 +14,13 @@ namespace Algoritmer_og_Generics___datatyper
         private static int currentIndex;
         private static int lowIndex;
 
+        /// <summary>
+        /// A recurssive algorithm that sorts an array based on a pivot point 
+        /// </summary>
+        /// <param name="array">array to sort</param>
+        /// <param name="low">first element of array</param>
+        /// <param name="high">pivot</param>
+        /// <returns></returns>
         public static int[] quickSort(int[] array, int low, int high)
         {
 
@@ -25,10 +32,10 @@ namespace Algoritmer_og_Generics___datatyper
 
                 if (pivot != -1)
                 {
-                    //sorts the left side
+                    //sorts the left side of the pivot
                     quickSort(array, low, pivot - 1);
 
-                    //sort the right side
+                    //sort the right side of the pivot
                     quickSort(array, pivot + 1, high);
                 }
 
@@ -36,27 +43,40 @@ namespace Algoritmer_og_Generics___datatyper
             return array;
         }
 
+        /// <summary>
+        /// Finds the sorted placement of the pivot item 
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        /// <returns></returns>
         private static int Partition(int[] array, int low, int high)
         {
-            if (low > high) return -1;
+            if (low > high) return -1; //if invalid partition
 
-            int pivot = array[high];    // element to be placed at the far right 
+            //This element needs to be sorted, so everything on the left is lower, and everything on the right is higher
+            int pivot = array[high];
 
-            // TODO: place these properly
+            //for drawing
             pivotIndex = high;
             lowIndex = low;
 
+
+            //the outer loop - this is the index where the pivot belongs (also called i in psuedo code)
             int leftWall = (low - 1);
 
-            for (int j = low; j < high; j++)
+            for (int j = low; j <= high - 1; j++)
             {
-                currentIndex = j;
+                currentIndex = j; //for drawing
+                DrawArray(array); //draws each time the current element we're looking at changes
 
-                DrawArray(array);
-                if (array[j] <= pivot)
+                if (array[j] <= pivot) //if the inspected element is less than the pivot 
                 {
-                    leftWall++;
-                    lowIndex++; //for drawing
+
+                    leftWall++;// moves the place where pivot belongs one to the right
+                    lowIndex = leftWall; //for drawing
+
+                    //swap the inspected element(j) and the pivot placeholder(i)
                     int tmp = array[leftWall];
                     array[leftWall] = array[j];
                     array[j] = tmp;
@@ -66,26 +86,23 @@ namespace Algoritmer_og_Generics___datatyper
                 }
             }
 
-
-            int temp = array[leftWall + 1];
+            //When nothing else can be sorted, swap the pivot with pivot placeholder (leftwall / i)
+            int temp = array[leftWall + 1]; //+1 because it doesn't reach the if statement above
             array[leftWall + 1] = array[high];
             array[high] = temp;
 
-            PrintCollection(array);
+            PrintCollection(array);//draws
+
+            //  Console.ReadKey();
 
             return leftWall + 1;
         }
 
-        private static void swap(int[] array, int low, int right)
-        {
-
-
-        }
 
         public static void PrintCollection(int[] array)
         {
-            System.Threading.Thread.Sleep(500);
-            // Console.ReadKey();
+            // System.Threading.Thread.Sleep(20);
+            Console.ReadKey();
 
             Console.Clear();
             Console.WriteLine("Actions " + count + "\n");
@@ -174,7 +191,7 @@ namespace Algoritmer_og_Generics___datatyper
 
             }
             Console.WriteLine("\nQuick Sorting");
-            System.Threading.Thread.Sleep(200);
+            System.Threading.Thread.Sleep(75);
             //Console.ReadKey();
 
 
@@ -183,43 +200,44 @@ namespace Algoritmer_og_Generics___datatyper
         {
             count = 0;
 
-            Random rnd = new Random();
-            List<int> testList = new List<int>();
+            //Random rnd = new Random();
+            //List<int> testList = new List<int>();
 
-            for (int i = 0; i < 5; i++)
-            {
-                testList.Add(rnd.Next(10000000));
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                testList.Add(rnd.Next(100000));
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    testList.Add(rnd.Next(10000000));
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    testList.Add(rnd.Next(100000));
 
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                testList.Add(rnd.Next(10000));
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    testList.Add(rnd.Next(10000));
 
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                testList.Add(rnd.Next(1000));
+            //}
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    testList.Add(rnd.Next(1000));
 
-            }
+            //}
 
-            for (int i = 0; i < 5; i++)
-            {
-                testList.Add(rnd.Next(100));
-            }
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    testList.Add(rnd.Next(100));
+            //}
 
 
-            int[] array = new int[testList.Count - 1];
+            //int[] array = new int[testList.Count - 1];
 
-            for (int i = 0; i < testList.Count - 1; i++)
-            {
-                array[i] = testList[i];
-            }
+            //for (int i = 0; i < testList.Count - 1; i++)
+            //{
+            //    array[i] = testList[i];
+            //}
 
-            //  int[] array = new int[10] { 7, 2, 1, 8, 6, 3, 5, 4, 1, 15 };
+            int[] array = new int[20] { 4, 73, 55, 8, 6, 3, 5, 4, 1, 15 ,
+             32,65,12,45,32,123,1,0,2,3};
 
 
 

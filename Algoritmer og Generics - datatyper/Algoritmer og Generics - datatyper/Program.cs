@@ -7,6 +7,7 @@ namespace Algoritmer_og_Generics___datatyper
     {
         public static Graph graph = new Graph();
 
+       
 
         static void Main(string[] args)
         {
@@ -40,12 +41,17 @@ namespace Algoritmer_og_Generics___datatyper
             #endregion;
 
             #region SortinAlgorithms;
-
             //Creates a new list of random numbers and sorts them
             Console.Clear();
 
-            Console.ReadKey();
-            QuickSort.Test();
+            while (true)
+            {
+
+                Console.ReadKey();
+                Console.Clear();
+
+                QuickSort.Test();
+            }
 
             Console.ReadKey();
             BubbleSort.Test();
@@ -53,13 +59,13 @@ namespace Algoritmer_og_Generics___datatyper
             Console.ReadKey();
             InsertionSort.Test();
 
-           
 
-            
 
-            
 
-           
+
+
+
+
             Console.ReadKey();
             //
 
