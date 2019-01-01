@@ -10,6 +10,22 @@ namespace OOP_og_designpatterns
     {
         static void Main(string[] args)
         {
+            StatePattern.TestStatePattern();
+
+            
+
+            DecoratorPattern.DecoratorPattern.TestDecorator();
+
+
+            LazyLoading lazyTest = new LazyLoading();
+
+            LazyLoading tmp = lazyTest;
+
+            Console.WriteLine(lazyTest);
+
+            Console.ReadKey();
+
+
             TestObserverPattern.Test();
 
             Polymorphism.Test();
@@ -40,7 +56,7 @@ namespace OOP_og_designpatterns
             Console.WriteLine("Component added");
             gameObject.AddComponent(new ComponentThatShouldDoSomething());
             gameObject.AddComponent(new ComponentThatDoesAnotherThing());
-            
+
             ComponentThatShouldDoSomething tmp = gameObject.GetComponent<ComponentThatShouldDoSomething>();
 
             //make it do that thing

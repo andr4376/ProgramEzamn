@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_og_designpatterns
 {
-    class ComponentThatShouldDoSomething : Component, IDoSomething
+    class ComponentThatShouldDoSomething : DecoratorComponent, IDoSomething
     {
         public void DoSomething()
         {

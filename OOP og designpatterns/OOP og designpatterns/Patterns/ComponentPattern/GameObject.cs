@@ -9,9 +9,9 @@ namespace OOP_og_designpatterns
     /// components, og sørger for at de alle får kaldt deres funktionaliteter
     /// I dette tilfælde, kaldes komponenternes funktionaliteter vha. Interfaces
     /// </summary>
-    class GameObject : Component
+    class GameObject : DecoratorComponent
     {
-        private List<Component> components = new List<Component>();
+        private List<DecoratorComponent> components = new List<DecoratorComponent>();
 
         private Transform transform;
         /*
@@ -31,7 +31,7 @@ f.eks være:
             get { return transform; }
         }
 
-        public List<Component> GetComponentList
+        public List<DecoratorComponent> GetComponentList
         {
             get { return components; }
         }
@@ -41,14 +41,14 @@ f.eks være:
             transform = new Transform();
         }
 
-        public void AddComponent(Component component)
+        public void AddComponent(DecoratorComponent component)
         {
             components.Add(component);
         }
 
-        public Component GetComponent(string component)
+        public DecoratorComponent GetComponent(string component)
         {
-            foreach (Component comp in components)
+            foreach (DecoratorComponent comp in components)
             {
                 if (comp.GetType().ToString() == "OOP_og_designpatterns." + component)
                 {
@@ -65,7 +65,7 @@ f.eks være:
         /// <returns></returns>
         public TComponentType GetComponent<TComponentType>()
         {
-            foreach (Component comp in components)
+            foreach (DecoratorComponent comp in components)
             {
                 if (comp is TComponentType)
                 {
@@ -76,7 +76,7 @@ f.eks være:
                 return (TComponentType)Convert.ChangeType(null, typeof(TComponentType));
         }
 
-        public void RemoveComponent(Component component)
+        public void RemoveComponent(DecoratorComponent component)
         {
             components.Remove(component);
         }
@@ -84,7 +84,7 @@ f.eks være:
 
         public void RemoveComponent<T>()
         {
-            foreach (Component comp in components)
+            foreach (DecoratorComponent comp in components)
             {
                 if (comp is T)
                 {

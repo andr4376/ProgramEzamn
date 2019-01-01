@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_og_designpatterns
 {
-    abstract class Component
+    abstract class DecoratorComponent
     {
         private GameObject gameObject;
 
@@ -15,12 +15,12 @@ namespace OOP_og_designpatterns
             get { return gameObject; }
         }
 
-        public Component(GameObject gameObject)
+        public DecoratorComponent(GameObject gameObject)
         {
             this.gameObject = gameObject;
         }
 
-        public Component()
+        public DecoratorComponent()
         {
 
         }

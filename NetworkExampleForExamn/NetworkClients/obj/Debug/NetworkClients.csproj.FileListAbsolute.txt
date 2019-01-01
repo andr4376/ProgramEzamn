@@ -1,0 +1,13 @@
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.exe.config
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.exe
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.pdb
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.exe
+C:\Users\Andr4\source\repos\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.exe.config
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\bin\Debug\NetworkClients.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.csprojAssemblyReference.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.csproj.CoreCompileInputs.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\NetworkClients\obj\Debug\NetworkClients.pdb

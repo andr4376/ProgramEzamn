@@ -101,8 +101,8 @@ namespace Algoritmer_og_Generics___datatyper
 
         public static void PrintCollection(int[] array)
         {
-            // System.Threading.Thread.Sleep(20);
-            Console.ReadKey();
+             System.Threading.Thread.Sleep(100);
+            //Console.ReadKey();
 
             Console.Clear();
             Console.WriteLine("Actions " + count + "\n");
@@ -200,44 +200,47 @@ namespace Algoritmer_og_Generics___datatyper
         {
             count = 0;
 
-            //Random rnd = new Random();
-            //List<int> testList = new List<int>();
+            Random rnd = new Random();
+            List<int> testList = new List<int>();
 
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    testList.Add(rnd.Next(10000000));
-            //}
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    testList.Add(rnd.Next(100000));
+            
+            for (int i = 0; i < 5; i++)
+            {
+                testList.Add(rnd.Next(100000));
 
-            //}
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    testList.Add(rnd.Next(10000));
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                testList.Add(rnd.Next(1000));
 
-            //}
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    testList.Add(rnd.Next(1000));
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                testList.Add(rnd.Next(10000000));
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                testList.Add(rnd.Next(100));
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                testList.Add(rnd.Next(10000));
 
-            //}
+            }
+           
 
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    testList.Add(rnd.Next(100));
-            //}
+          
 
 
-            //int[] array = new int[testList.Count - 1];
+            int[] array = new int[testList.Count - 1];
 
-            //for (int i = 0; i < testList.Count - 1; i++)
-            //{
-            //    array[i] = testList[i];
-            //}
+            for (int i = 0; i < testList.Count - 1; i++)
+            {
+                array[i] = testList[i];
+            }
 
-            int[] array = new int[20] { 4, 73, 55, 8, 6, 3, 5, 4, 1, 15 ,
-             32,65,12,45,32,123,1,0,2,3};
+            //int[] array = new int[20] { 4, 73, 55, 8, 6, 3, 5, 4, 1, 15 ,
+            // 32,65,12,45,32,123,1,0,2,3};
 
 
 

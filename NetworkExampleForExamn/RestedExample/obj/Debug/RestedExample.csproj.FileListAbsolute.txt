@@ -1,0 +1,10 @@
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\bin\Debug\RestedExample.exe.config
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\bin\Debug\RestedExample.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\bin\Debug\RestedExample.pdb
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.csprojAssemblyReference.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.Form1.resources
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.Properties.Resources.resources
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.csproj.GenerateResource.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.csproj.CoreCompileInputs.cache
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.exe
+D:\Code projects\Programmerings eksamen\ProgramEzamn\NetworkExampleForExamn\RestedExample\obj\Debug\RestedExample.pdb

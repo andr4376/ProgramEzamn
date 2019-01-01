@@ -32,11 +32,7 @@ namespace Tråde
         }
 
 
-        private void ThreadStarvation
-        {
-
-
-        }
+        
 
     }
 }

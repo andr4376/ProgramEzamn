@@ -43,12 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OOP\Animal.cs" />
+    <Compile Include="OOP\Canine.cs" />
+    <Compile Include="OOP\Dog.cs" />
+    <Compile Include="OOP\Fish.cs" />
+    <Compile Include="OOP\Food.cs" />
+    <Compile Include="OOP\IFur.cs" />
+    <Compile Include="OOP\Labrador.cs" />
+    <Compile Include="OOP\Mammal.cs" />
+    <Compile Include="OOP\Meat.cs" />
+    <Compile Include="OOP\Oxygen.cs" />
+    <Compile Include="OOP\Race.cs" />
+    <Compile Include="OOP\SnackBone.cs" />
+    <Compile Include="OOP\Tooth.cs" />
+    <Compile Include="Patterns\DecoratorPattern.cs" />
+    <Compile Include="Patterns\LazyLoading.cs" />
     <Compile Include="Patterns\ObserverPattern.cs" />
     <Compile Include="OOP\Polymorfi.cs" />
     <Compile Include="Patterns\BuilderPattern\ConcreteBuilder.cs" />
     <Compile Include="Patterns\BuilderPattern\IBuilder.cs" />
     <Compile Include="Patterns\ComponentPattern\ComponentThatDoesAnotherThing.cs" />
     <Compile Include="Patterns\ComponentPattern\IDoAnotherThing.cs" />
+    <Compile Include="Patterns\StatePattern\FoodDispenserMachine.cs" />
+    <Compile Include="Patterns\StatePattern\FoodDispenserState.cs" />
+    <Compile Include="Patterns\StatePattern\HasMoney.cs" />
+    <Compile Include="Patterns\StatePattern\NoMoneyInserted.cs" />
+    <Compile Include="Patterns\StatePattern\OutOfStock.cs" />
+    <Compile Include="Patterns\StatePattern\StatePattern.cs" />
     <Compile Include="Patterns\Strategy\ConcreteStrategy2.cs" />
     <Compile Include="Patterns\Strategy\ConcreteStrategy1.cs" />
     <Compile Include="Patterns\BuilderPattern\Builder.cs" />

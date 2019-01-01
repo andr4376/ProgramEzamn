@@ -6,4 +6,5 @@
 
 Tråde, tillader at man kan køre kode paralelt med hinanden
 
-Dette giver dog en masse problemer, for når flere tråde tilgåer de samme ressourcer, kan der opstå race conditions. Derfor bruger man synkroniserings
+Dette giver dog en masse problemer, for når flere tråde tilgåer de samme ressourcer, kan der opstå race conditions.
+Derfor bruger man synkroniserings
