@@ -1,10 +1,13 @@
 ﻿namespace OOP_og_designpatterns
 {
-    interface IBuilder
+    /// <summary>
+    /// All builders must have this interface
+    /// </summary>
+    interface IBuilder 
     {
-
-        void Build();
-
+        void BuildObject();
+        void MakeComponentA();
+        void MakeComponentB();
         GameObject GetResult();
 
     }

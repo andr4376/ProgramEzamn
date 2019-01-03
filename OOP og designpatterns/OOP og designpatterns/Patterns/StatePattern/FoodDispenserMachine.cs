@@ -37,18 +37,21 @@ namespace OOP_og_designpatterns
         }
 
 
+
         public void InsertMoney(int money)
         {
-            currentState.InsertMoney(money);
+            currentState.InsertMoney(money); 
         }
 
         public void PickItem(int itemNumber)
         {
+            //Selects a specific item
             currentState.PickItem(itemNumber);
         }
 
         public void EjectMoney()
         {
+            //Ejects remaining cash
             currentState.EjectMoney();
         }
 

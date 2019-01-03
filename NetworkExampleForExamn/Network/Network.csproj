@@ -46,7 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TCPServerExample.cs" />
-    <Compile Include="UDPServer.cs" />
+    <Compile Include="UDPBroadCastingServer.cs" />
     <Compile Include="UDPServerExample.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,7 +10,7 @@ namespace Tråde
     {
         //Metoder som bruger NumberExaminer Delegat'en, skal have samme returtype og parametre
         //Delegates tillader at du kan parametize kode / metoder
-        public delegate bool NumberExaminer(int number);
+        public delegate bool NumberExaminerDelegate(int number);
 
 
         public static bool LessThanTen(int number)
@@ -35,11 +35,11 @@ namespace Tråde
         }
 
 
-        public static void ExamineNumber(int number, NumberExaminer examiner)
+        public static void ExamineNumber(int number, NumberExaminerDelegate examiner)
         {
             if (examiner(number))
             {
-                //Accessed this code through parameterized code :)
+                Console.WriteLine("Used "+examiner+" to access code");
             }
         }
     }

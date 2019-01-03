@@ -1,0 +1,21 @@
+C:\Users\Andr4\source\repos\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\Andr4\source\repos\Generics\Generics\bin\Debug\Generics.exe
+C:\Users\Andr4\source\repos\Generics\Generics\bin\Debug\Generics.pdb
+C:\Users\Andr4\source\repos\Generics\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\Andr4\source\repos\Generics\Generics\obj\Debug\Generics.pdb
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\bin\Debug\Generics.exe
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\bin\Debug\Generics.pdb
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\Andr4\Desktop\Projects\Algorithms\Projects\Generics\Generics\obj\Debug\Generics.pdb
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\bin\Debug\Generics.exe.config
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\bin\Debug\Generics.exe
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\bin\Debug\Generics.pdb
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\obj\Debug\Generics.exe
+D:\Code projects\Skole-oevelser\Vigtige skole øvelser\Algorithms\Projects\Generics&linkedlist\Generics\obj\Debug\Generics.pdb

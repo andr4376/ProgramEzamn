@@ -1,0 +1,35 @@
+Forskellen på TCP & UDP
+
+Tcp sikre at alle pakker kommer igennem, og hvis de ikke gør, sendes en ny pakke
+Dette sikres via et "3 way handshake", hvor modtageren sender en notifikation om hvilke pakker den har modtaget.
+
+UDP står ikke til rådighed for om pakkerne bliver modtaget, eller om der er nogen der modtager dem.
+Hvis der skulle være noget galt med pakken når den modtages, bliver den kasseret,
+og en ny sendes ikke.
+
+TCP er langsommere, men mere reliable end UDP
+
+
+
+Hvad er Restful web service / Restful api?
+
+Hvad er en Web API?
+
+er en "application program interface (API)" som bruger HTTP (Hypertext Transfer Protocol) 
+til at GET, PUT, POST and DELETE data.
+
+minder om CRUD fra sql
+
+Create - POST
+Read - get
+Update - Put
+Delete - Delete
+
+Bruges til at hente / redigere data fra databaser, via HTTP
+
+returnere værdier i forskellige formater - XML JSON  HTML ect.
+
+Hvad er Osi modellen?
+OSI modellen er et hierakisk system af syv lag, der definerer kravene for al kommunikation mellem to computere 
+
+https://en.wikipedia.org/wiki/OSI_model

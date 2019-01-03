@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\bin\Debug\IdentificerAlgoritmer.exe.config
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\bin\Debug\IdentificerAlgoritmer.exe
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\bin\Debug\IdentificerAlgoritmer.pdb
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\obj\Debug\IdentificerAlgoritmer.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\obj\Debug\IdentificerAlgoritmer.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\obj\Debug\IdentificerAlgoritmer.exe
+C:\Users\Andr4\source\repos\IdentificerAlgoritmer\IdentificerAlgoritmer\obj\Debug\IdentificerAlgoritmer.pdb

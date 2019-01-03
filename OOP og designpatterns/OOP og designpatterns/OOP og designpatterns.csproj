@@ -43,19 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OOP\Animal.cs" />
-    <Compile Include="OOP\Canine.cs" />
-    <Compile Include="OOP\Dog.cs" />
-    <Compile Include="OOP\Fish.cs" />
-    <Compile Include="OOP\Food.cs" />
-    <Compile Include="OOP\IFur.cs" />
-    <Compile Include="OOP\Labrador.cs" />
-    <Compile Include="OOP\Mammal.cs" />
-    <Compile Include="OOP\Meat.cs" />
-    <Compile Include="OOP\Oxygen.cs" />
-    <Compile Include="OOP\Race.cs" />
-    <Compile Include="OOP\SnackBone.cs" />
-    <Compile Include="OOP\Tooth.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="FactoryPattern.cs" />
+    <Compile Include="OOP\Hund Eksempel\Animal.cs" />
+    <Compile Include="OOP\Hund Eksempel\Canine.cs" />
+    <Compile Include="OOP\Hund Eksempel\Chihuahua.cs" />
+    <Compile Include="OOP\Hund Eksempel\Collie.cs" />
+    <Compile Include="OOP\Hund Eksempel\Dog.cs" />
+    <Compile Include="OOP\Hund Eksempel\Fish.cs" />
+    <Compile Include="OOP\Hund Eksempel\Food.cs" />
+    <Compile Include="OOP\Hund Eksempel\IFur.cs" />
+    <Compile Include="OOP\Hund Eksempel\Labrador.cs" />
+    <Compile Include="OOP\Hund Eksempel\Mammal.cs" />
+    <Compile Include="OOP\Hund Eksempel\Meat.cs" />
+    <Compile Include="OOP\Hund Eksempel\Oxygen.cs" />
+    <Compile Include="OOP\Hund Eksempel\Race.cs" />
+    <Compile Include="OOP\Hund Eksempel\SnackBone.cs" />
+    <Compile Include="OOP\Hund Eksempel\Tooth.cs" />
     <Compile Include="Patterns\DecoratorPattern.cs" />
     <Compile Include="Patterns\LazyLoading.cs" />
     <Compile Include="Patterns\ObserverPattern.cs" />
@@ -64,6 +68,7 @@
     <Compile Include="Patterns\BuilderPattern\IBuilder.cs" />
     <Compile Include="Patterns\ComponentPattern\ComponentThatDoesAnotherThing.cs" />
     <Compile Include="Patterns\ComponentPattern\IDoAnotherThing.cs" />
+    <Compile Include="CarFactory.cs" />
     <Compile Include="Patterns\StatePattern\FoodDispenserMachine.cs" />
     <Compile Include="Patterns\StatePattern\FoodDispenserState.cs" />
     <Compile Include="Patterns\StatePattern\HasMoney.cs" />
@@ -96,6 +101,9 @@
     <Content Include="Patterns\Creational Designpatterns\CreationalDesign.txt" />
     <Content Include="Patterns\Strategy\StrategyPattern.txt" />
     <Content Include="OOP\OOP og desingpatterns.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Patterns\FactoryPattern\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

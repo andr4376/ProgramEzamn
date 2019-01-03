@@ -20,7 +20,7 @@ namespace WebApi.Controllers
         // GET: api/Dogs/5
         public Dog Get(int id)
         {
-            return Database.Dogs.Where(x => x.ID == id).FirstOrDefault(); //returns the appropriate dog
+            return Database.Dogs.Where(dog => dog.ID == id).FirstOrDefault(); //returns the appropriate dog
         }
 
 
@@ -46,7 +46,7 @@ namespace WebApi.Controllers
         // GET: api/Dogs/names
         public Dog GetDogWithName(string name)
         {
-            return Database.Dogs.Where(x => x.Name.ToLower() == name).FirstOrDefault();
+            return Database.Dogs.Where(dog => dog.Name.ToLower() == name.ToLower()).FirstOrDefault();
 
         }
         // POST: api/Dogs

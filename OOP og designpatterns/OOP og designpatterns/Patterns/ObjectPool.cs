@@ -11,7 +11,7 @@ namespace OOP_og_designpatterns
         private List<GameObject> activeList = new List<GameObject>();
         private List<GameObject> inActiveList = new List<GameObject>();
 
-        ObjectDirector objectDirector = new ObjectDirector(new ConcreteBuilder());
+        ObjectDirector objectDirector = new ObjectDirector(new GameObjectBuilder());
 
         public GameObject TakeFromPool()
         {

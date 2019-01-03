@@ -14,53 +14,75 @@ namespace Tråde
 
         static void Main(string[] args)
         {
-            //    //Test delegate
-            //    DelegateExample.ExamineNumber(15, DelegateExample.GreaterThanTen);
-
-            //    Console.ReadKey();
-
-            //    Console.Clear();
 
 
 
-            //    //tæller til 20 uden synkroniseringsmekanisme
-            //    ThreadExample threadExample = new ThreadExample();
-
-            //    threadExample.TestRessourceSyncronizationWithNoSync();
-
-            //    Console.ReadKey();
+          
 
 
 
-            //    //tæller til 20 med Lock
 
-            //    threadExample.ResetCount();
+            //Test delegate
+            DelegateExample.ExamineNumber(15, DelegateExample.GreaterThanTen);
 
-            //    threadExample.TestRessourceSyncronizationWithSync();
+            Console.ReadKey();
 
-            //    Console.ReadKey();
-
-
-
-            //    //tæller til 20 med semaphor
-            //    //starter ud stille, men lader flere tråde tilgå ressourcen senere
-            //    threadExample.ResetCount();
-
-            //    threadExample.TestRessourceSyncronizationWithSemaphore();
-
-            //    Console.ReadKey();
+            Console.Clear();
 
 
 
-            //    //tæller til 20 med mutex
+            //tæller til 20 uden synkroniseringsmekanisme
+            ThreadExample threadExample = new ThreadExample();
 
-            //    threadExample.ResetCount();
+            threadExample.TestRessourceSyncronizationWithNoSync();
 
-            //    threadExample.TestRessourceSyncronizationWithMutex();
+            Console.ReadKey();
 
-            //    Console.ReadKey();
 
-            DeadLockExample();
+
+            //tæller til 20 med Lock
+
+            threadExample.ResetCount();
+
+            threadExample.TestRessourceSyncronizationWithSync();
+
+            Console.ReadKey();
+
+
+
+            //tæller til 20 med semaphor
+            //starter ud stille, men lader flere tråde tilgå ressourcen senere
+            threadExample.ResetCount();
+
+            threadExample.TestRessourceSyncronizationWithSemaphore();
+
+            Console.ReadKey();
+
+
+
+            //tæller til 20 med mutex
+
+            threadExample.ResetCount();
+
+            threadExample.TestRessourceSyncronizationWithMutex();
+
+            Console.ReadKey();
+
+            //Måder at starte tråde på:
+
+            ThreadPool.QueueUserWorkItem(DeadLockExampleForThreadPool);
+
+            Parallel.Invoke(() => DeadLockExample(), () => DeadLockExample()); // kør flere metoder sammentid
+
+            new Thread(() => DeadLockExample()) { IsBackground = true }.Start(); //start en tråd med det samme
+
+
+            Console.ReadKey();
+
+        }
+        private static void DeadLockExampleForThreadPool(object obj)
+        {
+            Console.WriteLine("Threapool method");
         }
 
         private static void DeadLockExample()

@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\obj\Debug\ImplementPatternExamnExample.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\obj\Debug\ImplementPatternExamnExample.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\bin\Debug\ImplementPatternExamnExample.exe.config
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\bin\Debug\ImplementPatternExamnExample.exe
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\bin\Debug\ImplementPatternExamnExample.pdb
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\obj\Debug\ImplementPatternExamnExample.exe
+C:\Users\Andr4\source\repos\ImplementPatternExamnExample\ImplementPatternExamnExample\obj\Debug\ImplementPatternExamnExample.pdb

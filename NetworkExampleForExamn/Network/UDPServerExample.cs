@@ -13,7 +13,7 @@ namespace Network
     {
 
         public static readonly object key = new object();
-
+        
         private const int listenPort = 1337;
         static UdpClient listener = new UdpClient(listenPort);
         static IPEndPoint groupEndPoint = new IPEndPoint(IPAddress.Any, listenPort);

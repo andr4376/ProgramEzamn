@@ -21,13 +21,13 @@ namespace OOP_og_designpatterns
 
             //birds and monkeys has an "Is-a" relationship with animal, meaning they are of type animal. A bird
             //a bird can never be a monkey tho.
-            List<Animal> animals = new List<Animal>
+            List<AnimalSpecies> animals = new List<AnimalSpecies>
             {
                 monkey,
                 bird
             };
 
-            foreach (Animal animal in animals)
+            foreach (AnimalSpecies animal in animals)
             {
                 Console.WriteLine("Evaluate {0}, and make it do something", animal.GetName);
                 animal.EvaluateAnimal();
@@ -37,7 +37,7 @@ namespace OOP_og_designpatterns
 
             //cannot do this-> foreach (Monkey monkey in animals) 
 
-            foreach (Animal animal in animals)
+            foreach (AnimalSpecies animal in animals)
             {
                 if (animal is Monkey)
                 {
@@ -61,7 +61,7 @@ namespace OOP_og_designpatterns
     /// //Animal class cannot be instanciated, because it is abstract!
     ///anima is more of a concept, so we wouldnt want it to be a "physical" object
     /// </summary>
-    abstract class Animal
+    abstract class AnimalSpecies
     {
         private string name = string.Empty;
 
@@ -76,7 +76,7 @@ namespace OOP_og_designpatterns
             get { return name; }
         }
 
-        public Animal(string _name, string food, string _sound)
+        public AnimalSpecies(string _name, string food, string _sound)
         {
             name = _name;
             favouriteFood = food;
@@ -100,7 +100,7 @@ namespace OOP_og_designpatterns
 
     }
 
-    class Monkey : Animal
+    class Monkey : AnimalSpecies
     {
         public Monkey(string _name, string food, string _sound) : base(_name, food, _sound)
         {
@@ -128,7 +128,7 @@ namespace OOP_og_designpatterns
         }
     }
 
-    class Bird : Animal
+    class Bird : AnimalSpecies
     {
         public Bird(string _name, string food, string _sound) : base(_name, food, _sound)
         {

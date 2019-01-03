@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace OOP_og_designpatterns
 {
+    /// <summary>
+    /// The object in charge of making the right object
+    /// </summary>
     class ObjectDirector
     {
-        private IBuilder builder;
+        private IBuilder builder; //similar to strategy pattern
 
         public ObjectDirector(IBuilder builder)
         {
@@ -17,7 +20,9 @@ namespace OOP_og_designpatterns
 
         public GameObject Construct()
         {
-            builder.Build();
+            builder.BuildObject();
+            builder.MakeComponentA();
+            builder.MakeComponentB();
 
             return builder.GetResult();
         }

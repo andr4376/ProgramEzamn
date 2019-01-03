@@ -10,9 +10,13 @@ namespace OOP_og_designpatterns
     {
         static void Main(string[] args)
         {
-            StatePattern.TestStatePattern();
+            Builder.Test();
 
-            
+            TestObserverPattern.Test();
+
+            FactoryPattern.Test();
+
+            StatePattern.TestStatePattern();            
 
             DecoratorPattern.DecoratorPattern.TestDecorator();
 
@@ -26,7 +30,6 @@ namespace OOP_og_designpatterns
             Console.ReadKey();
 
 
-            TestObserverPattern.Test();
 
             Polymorphism.Test();
 
@@ -37,8 +40,7 @@ namespace OOP_og_designpatterns
             TestStrategyPattern();
             Console.ReadKey();
 
-            TestBuilderPattern();
-            Console.ReadKey();
+            
 
             TestObjectPool();
             Console.Read();
@@ -83,20 +85,7 @@ namespace OOP_og_designpatterns
 
         }
 
-        private static void TestBuilderPattern()
-        {
-            //New object director, that is focusing on building a specefik product (concreteBuilder)
-            ObjectDirector director = new ObjectDirector(new ConcreteBuilder());
-
-            //Result of the directors construction of a gameobject
-            GameObject go = director.Construct();
-
-            //Evaluate go
-            Console.WriteLine(go.ToString());
-
-            Console.WriteLine();
-
-        }
+       
 
         private static void TestObjectPool()
         {
@@ -131,6 +120,9 @@ namespace OOP_og_designpatterns
             Console.WriteLine();
 
         }
+
+
+     
     }
 
 

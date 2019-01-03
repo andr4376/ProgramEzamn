@@ -102,7 +102,7 @@ namespace Algoritmer_og_Generics___datatyper
         public static void PrintCollection(int[] array)
         {
              System.Threading.Thread.Sleep(100);
-            //Console.ReadKey();
+           // Console.ReadKey();
 
             Console.Clear();
             Console.WriteLine("Actions " + count + "\n");
@@ -192,7 +192,7 @@ namespace Algoritmer_og_Generics___datatyper
             }
             Console.WriteLine("\nQuick Sorting");
             System.Threading.Thread.Sleep(75);
-            //Console.ReadKey();
+           // Console.ReadKey();
 
 
         }

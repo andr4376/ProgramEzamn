@@ -18,7 +18,7 @@ namespace NetworkClients
 
         private static void TestUDP()
         {
-            //new Thread(() => UDPClientExample.ListenForMessages()) { IsBackground = true }.Start();
+          //  new Thread(() => UDPClientExample.ListenForMessages()) { IsBackground = true }.Start();
 
             while (true)
             {

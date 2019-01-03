@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\bin\Debug\highscoreExamExample.exe.config
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\bin\Debug\highscoreExamExample.exe
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\bin\Debug\highscoreExamExample.pdb
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\obj\Debug\highscoreExamExample.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\obj\Debug\highscoreExamExample.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\obj\Debug\highscoreExamExample.exe
+C:\Users\Andr4\source\repos\highscoreExamExample\highscoreExamExample\obj\Debug\highscoreExamExample.pdb

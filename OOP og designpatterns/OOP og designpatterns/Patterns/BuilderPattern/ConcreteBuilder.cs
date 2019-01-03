@@ -6,15 +6,24 @@ using System.Threading.Tasks;
 
 namespace OOP_og_designpatterns
 {
-    class ConcreteBuilder : IBuilder
+    class GameObjectBuilder : IBuilder
     {
         GameObject product;
 
-        public void Build()
+        public void BuildObject()
         {
             product = new GameObject();
+            
+        }
+
+        public void MakeComponentA( )
+        {
             product.AddComponent(new ComponentThatShouldDoSomething());
-            product.AddComponent(new ComponentThatDoesAnotherThing());
+        }
+
+        public void MakeComponentB()
+        {
+            product.AddComponent(new ComponentThatShouldDoSomething());
         }
 
         public GameObject GetResult()
@@ -22,5 +31,7 @@ namespace OOP_og_designpatterns
 
             return product;
         }
+
+     
     }
 }

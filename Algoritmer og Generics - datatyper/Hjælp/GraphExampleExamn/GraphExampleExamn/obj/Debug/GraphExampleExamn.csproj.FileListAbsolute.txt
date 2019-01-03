@@ -1,0 +1,7 @@
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\bin\Debug\GraphExampleExamn.exe.config
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\bin\Debug\GraphExampleExamn.exe
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\bin\Debug\GraphExampleExamn.pdb
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\obj\Debug\GraphExampleExamn.csprojAssemblyReference.cache
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\obj\Debug\GraphExampleExamn.csproj.CoreCompileInputs.cache
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\obj\Debug\GraphExampleExamn.exe
+C:\Users\Andr4\source\repos\GraphExampleExamn\GraphExampleExamn\obj\Debug\GraphExampleExamn.pdb
